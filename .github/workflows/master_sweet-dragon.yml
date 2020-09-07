@@ -18,7 +18,7 @@ jobs:
     - name: Set up Node.js version
       uses: actions/setup-node@v1
       with:
-        node-version: '10.6.0'
+        node-version: '10.14.1'
 
     - name: npm install, build, and test
       run: |
@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'sweet-dragon'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_93fa996a67414fb48e6bf36060e4ab31 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fe12646ac76b403d825f35d98469e2bc }}
         package: .

@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'sweetdragon'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_5bd1f1b4d48c4967b358ed59539b6b63 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_05f4e32f1e8948e5ac561e764653cb8a }}
         package: .
